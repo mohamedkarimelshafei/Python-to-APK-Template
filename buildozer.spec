@@ -32,7 +32,7 @@ android.permissions = INTERNET#打包需要网络权限 network permission is re
 #以下为release模式需要 following is required for release mode
 
 #强制构建APK而不是AAB,但没用 why does it build .aab instead of .apk?
-android.aab = False
+#android.aab = False
 
 #签名配置 signature configuration
 #android.keystore = /home/runner/work/RepositoryName/AndAgain/DomainName.PackageName.keystore
