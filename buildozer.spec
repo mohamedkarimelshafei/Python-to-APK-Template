@@ -1,7 +1,7 @@
 [app]
 title = appname#允许中文 Chinese allowed
-package.name = packagename
-package.domain = org.test#release模式不能用org.test org.test can't be used in release mode
+package.name = tcpudp_relay
+package.domain = com.mk.relay#release模式不能用org.test org.test can't be used in release mode
 source.dir = .#工作目录 working directory
 source.include_exts = py,png,jpg,kv,atlas#需要打包的文件类型 file types to be packed
 #source.include_patterns = image/* 打包image目录下的文件 pack files in the image directory
@@ -32,7 +32,7 @@ android.permissions = INTERNET#打包需要网络权限 network permission is re
 #以下为release模式需要 following is required for release mode
 
 #强制构建APK而不是AAB,但没用 why does it build .aab instead of .apk?
-#android.aab = False
+android.aab = False
 
 #签名配置 signature configuration
 #android.keystore = /home/runner/work/RepositoryName/AndAgain/DomainName.PackageName.keystore
